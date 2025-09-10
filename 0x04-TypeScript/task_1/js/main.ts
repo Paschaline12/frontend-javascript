@@ -5,7 +5,7 @@ interface Teacher {
   fullTimeEmployee: boolean;       // must always exist
   yearsOfExperience?: number;      // optional
   location: string;                // must always exist
-  [key: string]: any;              // allows extra attributes
+  [key: string]: any;              // allows adding extra attributes
 }
 
 // Example usage
