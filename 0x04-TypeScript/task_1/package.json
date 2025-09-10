@@ -1,0 +1,17 @@
+{
+  "name": "typescript-task1",
+  "version": "1.0.0",
+  "description": "TypeScript Task 1",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.0.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
